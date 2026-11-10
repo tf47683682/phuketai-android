@@ -1,0 +1,47 @@
+# build output & toolchain
+build/
+bt35/
+bt35.zip
+plat35/
+platform-35.zip
+tux/
+tux2/
+sdkbin/
+keystore.jks
+
+# scraped reference data used while reverse-engineering the API
+chunks/
+chunks.txt
+endpoints.txt
+pkg-index.txt
+repo.xml
+r8meta.xml
+index.html
+*.json
+!package.json
+!dist/*.json
+
+# dependencies & local scratch
+node_modules/
+package-lock.json
+shots/
+shots2/
+shots3/
+shots4/
+*.log
+.DS_Store
+
+# one-off reverse-engineering / debug scripts
+*.mjs
+!tests/*.mjs
+dbg*.mjs
+clicktest.mjs
+shot*.mjs
+diag.mjs
+probe.mjs
+test-*.mjs
+
+# third-party site bundles (not redistributed)
+index-*.js
+index-*.css
+vendor-*.js

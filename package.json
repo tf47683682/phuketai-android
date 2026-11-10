@@ -1,0 +1,14 @@
+{
+  "name": "phuketai-android",
+  "version": "1.0.3",
+  "private": true,
+  "description": "PhuketAI Android client (WebView shell + bundled SPA)",
+  "scripts": {
+    "test:ui": "node tests/ui-smoke.mjs",
+    "test:chat": "node tests/chat-flows.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^24.1.3",
+    "playwright": "^1.49.1"
+  }
+}

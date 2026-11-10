@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 421 386"
+     role="img"
+     aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">PhuketAI brand mark</title>
+  <desc id="logo-desc">A charcoal half-enclosed P paired with a sea-teal angular A.</desc>
+
+  <!-- Coordinates follow the supplied 421 x 386 reference canvas. -->
+  <g id="mark" fill="#25292D" fill-rule="evenodd">
+    <path d="M290 61 L114 77 L96 317 L183 296 L190 160 L297 107 Z
+             M152 102 L246 92 L166 143 Z"/>
+  </g>
+
+  <path id="accent"
+        fill="#18A7A0"
+        d="M289 117 L266 126 L266 180 L211 196 L212 236 L263 228
+           L248 294 L329 287 Z"/>
+</svg>
